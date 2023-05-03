@@ -79,6 +79,7 @@ The `buyer` and the `seller` can exchange JSON messages with the escrow that rep
 | 0            | Seller/Buyer | Initiate escrow transactions  |
 | 1            | Escrow       | Payment Request               |
 | 2            | Escrow       | Payment Updated               |
+| 3            | Seller       | Refund escrow transaction     |
 
 The escrow can then direct message the buyer with the following message: 
 ```json
