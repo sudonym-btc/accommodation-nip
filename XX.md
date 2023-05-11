@@ -114,7 +114,7 @@ The escrow, upon payment receipt, then sends direct messages to both buyer and s
 {
     "id": <String, UUID of the order>,
     "type": 1,
-    "message": RECEIVED/DISPUTED/REVERSED/SETTLED,
+    "message": RECEIVED/DISPUTED/REVERSED/SETTLED/CANCELLED,
     "proof": <String, optional proof of payment e.g. preimage>
 }
 ```
